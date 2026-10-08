@@ -220,3 +220,19 @@ button{font:inherit}
   *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* Live NIFTY TradingView chart */
+.nifty-live{margin-top:24px;border:1px solid rgba(192,255,222,.07);border-radius:18px;padding:12px;background:rgba(2,7,5,.32);overflow:hidden}
+.nifty-live-top{display:flex;align-items:center;justify-content:space-between;padding:2px 3px 9px}
+.chart-symbol{display:block;color:#5f7369;font-size:8px;letter-spacing:1.6px}
+.nifty-live-top strong{display:block;margin-top:4px;font:600 16px "Space Grotesk",sans-serif;color:#edf5f0}
+.nifty-widget{height:278px;width:100%}
+.nifty-widget__widget{height:246px;width:100%}
+.nifty-widget .tradingview-widget-copyright{height:24px!important;display:flex;align-items:center;justify-content:flex-end;color:#42534b!important;font-size:7px!important;letter-spacing:.2px;padding-right:2px}
+.nifty-widget .tradingview-widget-copyright a{color:#62776c!important}
+.market-stats{margin-top:10px}
+@media(max-width:480px){
+  .nifty-widget{height:230px}
+  .nifty-widget__widget{height:198px}
+  .nifty-live{padding:8px}
+}
