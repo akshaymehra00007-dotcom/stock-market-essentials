@@ -67,29 +67,55 @@
             <div class="market-card-top">
               <div>
                 <span class="micro-label">MARKET MINDSET</span>
-                <h2>Knowledge <span>first.</span></h2>
+                <h2>NIFTY <span>50.</span></h2>
               </div>
-              <span class="live-chip"><span></span> LIVE LEARNING</span>
+              <span class="live-chip"><span></span> LIVE MARKET</span>
             </div>
 
-            <div class="chart-wrap">
-              <div class="chart-axis"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span></div>
-              <svg class="market-chart" viewBox="0 0 640 280" preserveAspectRatio="none" role="img" aria-label="Decorative market chart">
-                <defs>
-                  <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#72f3b0" stop-opacity=".32"/>
-                    <stop offset="100%" stop-color="#72f3b0" stop-opacity="0"/>
-                  </linearGradient>
-                  <filter id="softGlow">
-                    <feGaussianBlur stdDeviation="5" result="blur"/>
-                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-                  </filter>
-                </defs>
-                <path d="M0,218 C26,212 44,196 66,203 S104,225 122,186 S157,145 182,166 S214,207 238,155 S279,130 304,145 S333,172 356,120 S392,96 420,118 S451,138 474,90 S507,54 532,76 S566,102 592,48 S623,24 640,8 L640,280 L0,280Z" fill="url(#chartFill)"/>
-                <path class="chart-glow" d="M0,218 C26,212 44,196 66,203 S104,225 122,186 S157,145 182,166 S214,207 238,155 S279,130 304,145 S333,172 356,120 S392,96 420,118 S451,138 474,90 S507,54 532,76 S566,102 592,48 S623,24 640,8" fill="none" stroke="#72f3b0" stroke-width="7" opacity=".18" filter="url(#softGlow)"/>
-                <path d="M0,218 C26,212 44,196 66,203 S104,225 122,186 S157,145 182,166 S214,207 238,155 S279,130 304,145 S333,172 356,120 S392,96 420,118 S451,138 474,90 S507,54 532,76 S566,102 592,48 S623,24 640,8" fill="none" stroke="#72f3b0" stroke-width="3"/>
-                <circle cx="640" cy="8" r="6" fill="#72f3b0"/>
-              </svg>
+            <div class="nifty-live">
+              <div class="nifty-live-top">
+                <div><span class="chart-symbol">NSE · NIFTY</span><strong>NIFTY 50</strong></div>
+                <span class="live-chip"><span></span> MARKET DATA</span>
+              </div>
+              <div class="tradingview-widget-container nifty-widget">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright">
+                  <a href="https://www.tradingview.com/symbols/NSE-NIFTY/" rel="noopener nofollow" target="_blank">NIFTY 50 chart</a> by TradingView
+                </div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                {
+                  "autosize": true,
+                  "symbol": "NSE:NIFTY",
+                  "interval": "15",
+                  "timezone": "exchange",
+                  "theme": "dark",
+                  "style": "3",
+                  "hide_top_toolbar": true,
+                  "hide_side_toolbar": true,
+                  "hide_legend": false,
+                  "hide_volume": true,
+                  "allow_symbol_change": false,
+                  "save_image": false,
+                  "details": false,
+                  "hotlist": false,
+                  "calendar": false,
+                  "withdateranges": false,
+                  "hide_symbol_logo": true,
+                  "backgroundColor": "rgba(0,0,0,0)",
+                  "gridColor": "rgba(114,243,176,0.06)",
+                  "fontColor": "#7d9187",
+                  "upColor": "#72f3b0",
+                  "downColor": "#ff6b8a",
+                  "borderUpColor": "#72f3b0",
+                  "borderDownColor": "#ff6b8a",
+                  "wickUpColor": "#72f3b0",
+                  "wickDownColor": "#ff6b8a",
+                  "show_popup_button": false,
+                  "support_host": "https://www.tradingview.com",
+                  "locale": "en"
+                }
+                </script>
+              </div>
             </div>
 
             <div class="market-stats">
